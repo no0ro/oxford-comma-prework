@@ -1,4 +1,6 @@
 def oxford_comma(array)
-  joined.insert(-1,"and")
-  joined=array.join(",")
+  if array.length == 0 
+    array[0]
+  elsif array.length == 1 
+    "array[0]
 end
